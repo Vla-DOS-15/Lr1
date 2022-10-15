@@ -1,11 +1,12 @@
 package com.company;
 
+// Variant - #2
 public class Main {
     //Task #1
     static void TaskOne(){
         double m=2, c=-1, t=1.2, b=0.7;
 
-        double f = Math.cbrt(m *t* Math.tan(t) + Math.abs(c * Math.sin(t)));
+        double f = Math.cbrt(m * t * Math.tan(t) + Math.abs(c * Math.sin(t)));
         System.out.println("f = " + f);
 
 
@@ -20,6 +21,7 @@ public class Main {
         double c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
         double p = a + b + c;
         double s = a * b / 2;
+        System.out.println("\nP = " + p);
         System.out.println("S = " + s);
     }
 
